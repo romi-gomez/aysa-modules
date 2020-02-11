@@ -1,0 +1,105 @@
+@import url(fonts/fonts.css);
+/*-----------------------------------------------------------------------------
+GENERAL STYLES
+-----------------------------------------------------------------------------*/
+body{
+  background: #F3F3F3;
+  width:100%;
+  height: 100%;
+}
+
+.left-sidebar{
+  height:500px;
+}
+
+.main-content{
+  height:500px;
+}
+
+.right-sidebar {
+  height:500px;
+}
+
+/*scrollbars*/
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*-----------------------------------------------------------------------------
+GENERAL STYLES - END
+-----------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------
+OBRAS EN CONSTRUCCIÓN
+-----------------------------------------------------------------------------*/
+
+.left-module.construccion{
+  width: 100%;
+}
+
+.construccion .left-module-title {
+  font-family:'Univers Condensed Bold';
+  font-size:12px;
+  color: #FFF;
+  background-color: #006286;
+  padding: 10px;
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);
+  margin-bottom: 10px;
+}
+
+.construccion .construccion-list{
+  padding: 0;
+}
+
+.construccion .construccion-item{
+   width:48%;
+   min-height: 100px;
+   margin-bottom: 10px;
+   display: inline-block;
+   vertical-align: middle;
+   font-family:'Univers Condensed Bold';
+   text-align: center;
+   background-color:#008AC6;
+   font-size: 12px;
+   color: #FFF;
+   box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);
+}
+
+.construccion .construccion-item.light{
+  background-color: #4EADE9;
+}
+
+.construccion .construccion-item#const-1,
+.construccion .construccion-item#const-3{
+  float: left;
+}
+
+.construccion .construccion-item#const-2,
+.construccion .construccion-item#const-4{
+  float: right;
+}
+
+.construccion .construccion-item img{
+  width:100%;
+}
+
+
+/*-----------------------------------------------------------------------------
+OBRAS EN CONSTRUCCIÓN - END
+-----------------------------------------------------------------------------*/

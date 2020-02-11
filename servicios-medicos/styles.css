@@ -1,0 +1,128 @@
+@import url(fonts/fonts.css);
+/*-----------------------------------------------------------------------------
+GENERAL STYLES
+-----------------------------------------------------------------------------*/
+body{
+  background: #F3F3F3;
+  width:100%;
+  height: 100%;
+}
+
+.left-sidebar{
+  height:500px;
+}
+
+.main-content{
+  height:500px;
+}
+
+.right-sidebar {
+  height:500px;
+}
+
+/*scrollbars*/
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*-----------------------------------------------------------------------------
+GENERAL STYLES - END
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+SERVICIOS MEDICOS
+-----------------------------------------------------------------------------*/
+
+.right-module.servicios-medicos{
+  width:100%;
+  margin-top: 10px;
+}
+
+.servicios-medicos .right-module-title{
+  text-transform: uppercase;
+}
+.servicios-medicos .right-module-title img,
+.servicios-medicos .right-module-title h2{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.servicios-medicos .right-module-title img{
+  margin-right: 10px;
+}
+
+.servicios-medicos .right-module-title h2{
+  font-family:'Univers Bold';
+  font-size: 15px;
+  color:#006286;
+}
+
+.servicios-medicos .right-module-content{
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px 3px rgba(0,0,0,.2);
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.servicios-medicos .content-title h3 {
+    text-transform: uppercase;
+    font-family: 'Univers Condensed Bold';
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #6F6F6E;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.servicios-medicos .content-title.localizador h3{
+  background-color: #008AC6;
+}
+
+.servicios-medicos .content-txt{
+  background-color: #EAEAEA;
+  font-family: 'Univers Condensed';
+  color:#006286;
+  padding: 5px 10px;
+}
+
+.servicios-medicos .content-txt.loc-num{
+  font-family: 'Univers Condensed Bold';
+  width:20%;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.servicios-medicos .content-txt.loc-txt{
+  width:78.5%;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.servicios-medicos .content-txt p{
+  margin: 0;
+}
+
+.servicios-medicos .right-module-content img{
+  width:100%;
+}
+
+/*-----------------------------------------------------------------------------
+SERVICIOS MEDICOS- END
+-----------------------------------------------------------------------------*/

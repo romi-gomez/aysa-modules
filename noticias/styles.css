@@ -1,0 +1,310 @@
+@import url(fonts/fonts.css);
+/*-----------------------------------------------------------------------------
+GENERAL STYLES
+-----------------------------------------------------------------------------*/
+body{
+  background: #F3F3F3;
+  width:100%;
+  height: 100%;
+}
+
+.left-sidebar{
+  height:500px;
+}
+
+.main-content{
+  height:500px;
+}
+
+.right-sidebar {
+  height:500px;
+}
+
+/*scrollbars*/
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*-----------------------------------------------------------------------------
+GENERAL STYLES - END
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+POP-UP STYLES
+-----------------------------------------------------------------------------*/
+.noticia .modal-dialog {
+    width: 75%;
+    margin: 30px auto;
+}
+
+.noticia .modal-content{
+  border-radius: 0px;
+}
+
+.noticia .modal-header{
+  border-bottom: none;
+}
+
+.noticia .close {
+    float: right;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 0 0 #fff;
+    opacity: .4;
+}
+
+.noticia .modal-header .close {
+    margin-top: -2px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.noticia .modal-title-img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.noticia .modal-title{
+  display: inline-block;
+  vertical-align: bottom;
+  font-family:'Univers Condensed Bold';
+  font-size: 13pt;
+  color:#006286;
+  text-transform: uppercase;
+}
+
+
+/*-----------------------------------------------------------------------------
+NOTICIAS
+-----------------------------------------------------------------------------*/
+
+/*contenedor de noticias*/
+.noticias{
+  width:100%;
+  margin:0 auto;
+}
+
+/*Filtro superior*/
+
+.noticias .filtro{
+  text-align: right;
+  padding:5px;
+  padding-bottom: 10px;
+}
+
+.noticias .filtro .hight-line {
+    width: 20%;
+    height: 5.5px;
+    background-color: #BCBEBC;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: -5px;
+    padding: 0;
+}
+
+.noticias .filtro .line {
+    width: 48%;
+    height: 1px;
+    background-color: #BCBEBC;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.noticias .filtro .options {
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: 'Univers Condensed Bold';
+    font-size: 10px;
+    width: 31%;
+}
+
+.noticias .noticias-filtro-select{
+  font-family:'Univers Bold';
+  font-size: 10px;
+}
+
+.noticias .filtro select{
+  color: #6F6F6E;
+  background-color: transparent;
+  border: none;
+}
+
+.noticias .filtro select option{
+  color: #006286;
+  font-family:'Univers Condensed Bold';
+  font-size:10px;
+  background-color: #EAEAEA;
+}
+
+/*Noticia individual*/
+
+.noticia{
+    background-color: #FFF;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,.2);
+}
+
+.noticia .noticia-img {
+    text-align: center;
+    width: 98%;
+    margin: 0% auto;
+}
+
+.noticia .noticia-img img{
+  width:100%;
+}
+
+/*noticia-individual - acciones*/
+
+.noticia .noticia .actions{
+  padding-bottom: 5px;
+}
+
+.noticia .noticia-share{
+  -webkit-margin-before: 1px;
+  -webkit-margin-after: 1px;
+  padding-left: 10px;
+  padding-top: 0;
+}
+
+.noticia .noticia-share a{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.noticia .noticia-share a li{
+  list-style: none;
+}
+
+.noticia .noticia-shared {
+    font-family:'Univers Condensed';
+    font-size: 10px;
+    color: #BCBEBC;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.noticia .noticia-shared .like,
+.noticia .noticia-shared .shared{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.noticia .noticia-shared-txt{
+  display: inline-block;
+  vertical-align: middle;
+  width:30%;
+}
+
+.noticia .noticia-shared p{
+    display: block;
+    -webkit-margin-before: 1px;
+    -webkit-margin-after: 1px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.noticia .noticia-shared  span{
+    font-family:'Univers Bold';
+    color: #6F6F6E;
+}
+
+.noticia .noticia-shared .line {
+    width: 68%;
+    height: 1px;
+    background-color: #BCBEBC;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+/*Noticia - pop-up*/
+
+.noticia .modal-left{
+  font-family: 'Univers Condensed';
+  width:39%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%;
+}
+
+.noticia .modal-left-date{
+  color:#FFF;
+  background-color: #008AC6;
+  margin: 0;
+  padding:15px;
+}
+
+
+.noticia .modal-left-title{
+  background-color: #EAEAEA;
+  margin: 0;
+  margin:5px 0;
+  padding:15px;
+}
+
+.noticia .modal-left img{
+  width:100%;
+}
+
+.noticia .modal-right{
+  font-family: 'Univers Condensed';
+  width:59%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.noticia .modal-right-title{
+  background-color: #EAEAEA;
+  margin: 0;
+  margin-bottom:5px;
+  padding:15px;
+}
+
+.noticia .modal-right-text{
+  border: 1px solid #008AC6;
+  padding: 10px;
+  max-height: 325px;
+  overflow-y: scroll;
+}
+
+
+.noticia .modal-right-text h2{
+  color: #006286;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.noticia .modal-right-text p{
+  font-family:'Univers Bold';
+  font-size: 14px;
+  width:97%;
+}
+
+/*-----------------------------------------------------------------------------
+NOTICAS - END
+-----------------------------------------------------------------------------*/

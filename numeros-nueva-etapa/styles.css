@@ -1,0 +1,114 @@
+@import url(fonts/fonts.css);
+/*-----------------------------------------------------------------------------
+GENERAL STYLES
+-----------------------------------------------------------------------------*/
+body{
+  background: #F3F3F3;
+  width:100%;
+  height: 100%;
+}
+
+.left-sidebar{
+  height:500px;
+}
+
+.main-content{
+  height:500px;
+}
+
+.right-sidebar {
+  height:500px;
+}
+
+/*scrollbars*/
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*-----------------------------------------------------------------------------
+GENERAL STYLES - END
+-----------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------
+OBRAS EN CONSTRUCCIÓN
+-----------------------------------------------------------------------------*/
+
+.left-module.nn-etapa{
+  width: 100%;
+}
+
+.nn-etapa .left-module-title {
+  font-family:'Univers Bold';
+  font-size:15px;
+  color: #008796;
+  padding: 5px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+.nn-etapa .left-module-title  img{
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.nn-etapa .nn-etapa-list{
+  padding: 0;
+}
+
+.nn-etapa .nn-etapa-item{
+   width:48%;
+   min-height: 100px;
+   margin-bottom: 10px;
+   display: inline-block;
+   vertical-align: middle;
+   font-family:'Univers Condensed Bold';
+   text-align: center;
+   text-transform: uppercase;
+   background-color:#008796;
+   font-size: 16px;
+   color: #FFF;
+   box-shadow:1px 1px 1px 1px rgba(0,0,0,.2);
+   padding-bottom: 20px;
+   padding-top: 10px;
+   line-height: 15px;
+}
+
+.nn-etapa .nn-etapa-item span{
+  font-family:'Univers Condensed Light';
+  font-size: 50px;
+  line-height: 60px;
+}
+
+
+.nn-etapa .nn-etapa-item#item-1{
+  float: left;
+}
+
+.nn-etapa .nn-etapa-item#item-2{
+  float: right;
+}
+
+.nn-etapa .nn-etapa-item img{
+  width:100%;
+}
+
+
+/*-----------------------------------------------------------------------------
+OBRAS EN CONSTRUCCIÓN - END
+-----------------------------------------------------------------------------*/

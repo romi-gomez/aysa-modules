@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue_bold-webfont.woff2') format('woff2'),
+         url('bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Univers Bold';
+    src: url('UniversLTStd-Bold.eot');
+	src: url('UniversLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd-Bold.woff2') format('woff2'),
+		url('UniversLTStd-Bold.woff') format('woff'),
+		url('UniversLTStd-Bold.svg#UniversLTStd-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Univers Condensed Bold';
+    src: url('UniversLTStd-BoldCn.eot');
+	src: url('UniversLTStd-BoldCn.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd-BoldCn.woff2') format('woff2'),
+		url('UniversLTStd-BoldCn.woff') format('woff'),
+		url('UniversLTStd-BoldCn.svg#UniversLTStd-BoldCn') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Univers Condensed Light';
+    src: url('UniversLTStd-LightCn.eot');
+	src: url('UniversLTStd-LightCn.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd-LightCn.woff2') format('woff2'),
+		url('UniversLTStd-LightCn.woff') format('woff'),
+		url('UniversLTStd-LightCn.svg#UniversLTStd-LightCn') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Univers';
+    src: url('UniversLTStd-Black.eot');
+	src: url('UniversLTStd-Black.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd-Black.woff2') format('woff2'),
+		url('UniversLTStd-Black.woff') format('woff'),
+		url('UniversLTStd-Black.svg#UniversLTStd-Black') format('svg');
+    font-weight: 850;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Univers Condensed';
+    src: url('UniversLTStd-Cn.eot');
+	src: url('UniversLTStd-Cn.eot?#iefix') format('embedded-opentype'),
+		url('UniversLTStd-Cn.woff2') format('woff2'),
+		url('UniversLTStd-Cn.woff') format('woff'),
+		url('UniversLTStd-Cn.svg#UniversLTStd-Cn') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Gotham Black';
+    src: url('Gotham-Black.eot');
+	src: url('Gotham-Black.eot?#iefix') format('embedded-opentype'),
+		url('Gotham-Black.woff2') format('woff2'),
+		url('Gotham-Black.woff') format('woff'),
+		url('Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: 425;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Gotham Bold';
+    src: url('Gotham-Bold.eot');
+	src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Gotham-Bold.woff2') format('woff2'),
+		url('Gotham-Bold.woff') format('woff'),
+		url('Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Gotham Book';
+    src: url('Gotham-Book.eot');
+	src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('Gotham-Book.woff2') format('woff2'),
+		url('Gotham-Book.woff') format('woff'),
+		url('Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: 325;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Gotham Medium';
+    src: url('Gotham-Medium.eot');
+	src: url('Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Gotham-Medium.woff2') format('woff2'),
+		url('Gotham-Medium.woff') format('woff'),
+		url('Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 350;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}

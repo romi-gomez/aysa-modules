@@ -1,0 +1,137 @@
+@import url(fonts/fonts.css);
+/*-----------------------------------------------------------------------------
+GENERAL STYLES
+-----------------------------------------------------------------------------*/
+body{
+  background: #F3F3F3;
+  width:100%;
+  height: 100%;
+}
+
+.left-sidebar{
+  height:500px;
+}
+
+.main-content{
+  height:500px;
+}
+
+.right-sidebar {
+  height:500px;
+}
+
+/*scrollbars*/
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*-----------------------------------------------------------------------------
+GENERAL STYLES - END
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+CONVENIO
+-----------------------------------------------------------------------------*/
+
+.right-module.convenio {
+  width:100%;
+  margin-top: 10px;
+}
+
+.convenio .right-module-title{
+  text-transform: uppercase;
+}
+.convenio .right-module-title img,
+.convenio .right-module-title h2{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.convenio .right-module-title img{
+  margin-right: 10px;
+}
+
+.convenio .right-module-title h2{
+  font-family:'Univers Bold';
+  font-size: 15px;
+  color:#006286;
+  margin-bottom: 0;
+}
+
+.convenio .right-module-content{
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px 3px rgba(0,0,0,.2);
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.convenio .content-title h3 {
+    text-transform: uppercase;
+    font-family: 'Univers Condensed Bold';
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #005080;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.convenio .content-txt{
+  font-family: 'Univers Condensed Bold';
+  color:#006286;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.convenio .content-txt.loc-num{
+  font-family: 'Univers Condensed Bold';
+  width:20%;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.convenio .content-txt.loc-txt{
+  width:78.5%;
+  display: inline-block;
+  vertical-align:middle;
+  background-color: #E9E9E9;
+  color: #0089C5;
+  text-transform:uppercase;
+  background-image: url(img/convenio-bg.png);
+  background-size: auto 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.convenio .content-txt a{
+  margin: 0;
+}
+
+.convenio .content-txt a:hover{
+  text-decoration: none;
+}
+
+.convenio .right-module-content img{
+  width:100%;
+}
+
+/*-----------------------------------------------------------------------------
+SERVICIOS MEDICOS- END
+-----------------------------------------------------------------------------*/

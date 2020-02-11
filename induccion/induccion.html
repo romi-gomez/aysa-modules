@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="left-sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+      <div class="left-module induccion">
+        <h2 class="left-module-title">INDUCCIÓN</h2>
+        <ul class="induccion-list">
+          <li class="induccion-item" data-toggle="modal" data-target="#bienvenida-popup">BIENVENIDA <img src="img/induccion-arrow.png" alt=""></li>
+          <li class="induccion-item" data-toggle="modal" data-target="#proceso-potabilizacion-popup">proceso de potabilización <img src="img/induccion-arrow.png" alt=""></li>
+          <li class="induccion-item" data-toggle="modal" data-target="#proceso-saneamiento-popup">proceso de saneamiento <img src="img/induccion-arrow.png" alt=""></li>
+          <li class="induccion-item" data-toggle="modal" data-target="#gestion-calidad-popup">gestión de la calidad <img src="img/induccion-arrow.png" alt=""></li>
+          <li class="induccion-item" data-toggle="modal" data-target="#patrimonio-popup">patrimonio <img src="img/induccion-arrow.png" alt=""></li>
+          <li class="induccion-item" data-toggle="modal" data-target="#operaciones-regionales-popup">operaciones regionales <img src="img/induccion-arrow.png" alt=""></li>
+          <li class="induccion-item" data-toggle="modal" data-target="#medio-ambiente-popup">medio ambiente <img src="img/induccion-arrow.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Pop-up induccion-->
+    <div class="induccion-popup">
+      <div class="modal fade" id="bienvenida-popup" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <video src="img/induccion-video-test.mp4" controls poster="posterimage.jpg"></video>
+          </div>
+        </div>
+      </div>
+
+    <div class="main-content col-xs-12 col-sm-12 col-md-5 col-lg-5"></div>
+    <div class="right-sidebar col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
+  </div>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
